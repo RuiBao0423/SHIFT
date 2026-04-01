@@ -34,10 +34,15 @@ After cloning the MarkDiffusion repository, please organize the project structur
 Copy the `scripts/` directory from this repository into the root directory of `MarkDiffusion`:
 
 MarkDiffusion/
+
 ├── scripts/ # ← our scripts (attack, detection, etc.)
+
 ├── config/
+
 ├── watermark/
+
 ├── ...
+
 ---
 
 ### 🔹 Step 2: Place models directory at the same level
