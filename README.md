@@ -43,8 +43,11 @@ MarkDiffusion/
 ### 🔹 Step 2: Place models directory at the same level
 
 Ensure the `models/` directory is placed **at the same level as `MarkDiffusion/`**:
+
 project_root/
+
 ├── MarkDiffusion/
+
 ├── models/ # ← Stable Diffusion / other model checkpoints
 
 
