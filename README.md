@@ -45,6 +45,9 @@ MarkDiffusion/
 
 ---
 
+
+
+
 ### 🔹 Step 2: Place models directory at the same level
 
 Ensure the `models/` directory is placed **at the same level as `MarkDiffusion/`**:
@@ -56,12 +59,16 @@ project_root/
 ├── models/ # ← Stable Diffusion / other model checkpoints
 
 
+
+
 ### 🔹 Step 3: Install dependencies
 
 pip install -r scripts/requirements.txt
 
 
 ## 🧪 Usage
+
+
 
 ### 🔹 Step 4: Generate watermarked images
 
@@ -71,6 +78,7 @@ Run the following script to generate images with diffusion-based watermarks:
 NUM_IMAGES=100
 python scripts/smoke_test_tr_gs_seal.py --num_images ${NUM_IMAGES}
 ```
+
 
 
 ### 🔹 Step 5: Run watermark removal attack (SHIFT)
